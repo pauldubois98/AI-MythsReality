@@ -6,7 +6,7 @@ All ressources for "Artificial Intelligence: Myths vs Reality" talk given at inf
 ### English:
 ChatGPT, MidJourney/DALL-E, recommendation algorithms... AI seems to have infiltrated our society's daily life.
 However, AI remains a poorly understood field, reserved for a few experts.
-The goal of this scientific evening, open to all, is to demystify what we broadly call artificial intelligence.
+The goal of this scientific evening, open to all, is to demystify what we broadly refer to as "artificial intelligence".
 We will discuss image processing, text analysis, and the inner workings of machine learning and deep learning.
 These are the techniques behind the rapid advancements in AI in recent years.
 
