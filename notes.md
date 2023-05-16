@@ -1,5 +1,7 @@
 # Intelligence artificielle : mythes et réalités
 
+Presentation: PhD in AI applied to RT (healthcare) at CS
+
 ## Part 1: Intro + Images
 what is ai?
 => smth that behaves/mimics like human; some are v stupid, some v smart
