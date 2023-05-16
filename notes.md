@@ -27,3 +27,5 @@ for more complex data, such as images, to be able to say if a light is red or gr
 then, we can also follow the process of trial and error, even for very complex machine, like the one able to eat an image and throw out a label
 [show evolution of the predictions + accuracy on ~10 images while training]
 this is how you teach a computer to recognize digits, and by extension writting
+
+if you want to generate an image from a label, you can reverse your architecture & train again (NB: this is *very* simplified)
