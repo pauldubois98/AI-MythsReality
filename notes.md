@@ -48,3 +48,5 @@ Reality: AI is making big progresses, thanks to lots of computer power + lots of
 Reality: AI as a tool is becming more and more efficient
 Reality: some jobs might change with AI, but mostly to become less boring (e.g. organ contouring)
 Myth: AI will replace humans (e.g. humans still have to check up organ contouring)
+
+[ Q & A ]
