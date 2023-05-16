@@ -37,6 +37,8 @@ input text architecture (word to token)
 predict next word/token => self supervised (no labelled data needed!)
 frame it to obtain chatGPT
 
+AI uses LOTS of energy (not good for environment)
+
 --------------
 
 CCL:
