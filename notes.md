@@ -36,3 +36,13 @@ now, how do we get AI to deal with text?
 input text architecture (word to token)
 predict next word/token => self supervised (no labelled data needed!)
 frame it to obtain chatGPT
+
+--------------
+
+CCL:
+Myth: AI will take over and blah blah blah
+Myth: AI is "smart" => show fails (e.g. when image is different from the ones in the training)
+Reality: AI is making big progresses, thanks to lots of computer power + lots of data
+Reality: AI as a tool is becming more and more efficient
+Reality: some jobs might change with AI, but mostly to become less boring (e.g. organ contouring)
+Myth: AI will replace humans (e.g. humans still have to check up organ contouring)
