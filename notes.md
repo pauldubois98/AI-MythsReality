@@ -1,5 +1,6 @@
 # Intelligence artificielle : mythes et réalités
 
+## Part 1: Intro + Images
 what is ai?
 => smth that behaves/mimics like human; some are v stupid, some v smart
 ofc, we are more interested in the "smart" ones
@@ -32,6 +33,7 @@ if you want to generate an image from a label, you can reverse your architecture
 
 ============== [ entracte ] ==================
 
+## Part 2: Text & Ressources
 now, how do we get AI to deal with text?
 input text architecture (word to token)
 predict next word/token => self supervised (no labelled data needed!)
@@ -39,9 +41,7 @@ frame it to obtain chatGPT
 
 AI uses LOTS of energy (not good for environment)
 
---------------
-
-CCL:
+## Part 3: Conclusion
 Myth: AI will take over and blah blah blah
 Myth: AI is "smart" => show fails (e.g. when image is different from the ones in the training)
 Reality: AI is making big progresses, thanks to lots of computer power + lots of data
