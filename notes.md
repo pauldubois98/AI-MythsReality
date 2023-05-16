@@ -17,3 +17,7 @@ Imagine a machine that can do very complex things with correct settings, but you
 
 describe architecture for image labeling (input image, output label, instead of input x, output y)
 [give example of MNIST]
+
+how did you all manage to have green lights on the black box model?
+=> trial and error
+you needed to have the green / red lights... these turn out to be points
