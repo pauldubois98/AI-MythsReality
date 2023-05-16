@@ -14,3 +14,6 @@ Imagine a machine that can do very complex things with correct settings, but you
 [explanation]
 - white box machine interface + test (QR code) a(x-c)+b=y; test on line + line to fit (turn green/red if line is within acceptable error)
 => it is possible to explain simple models like this one
+
+describe architecture for image labeling (input image, output label, instead of input x, output y)
+[give example of MNIST]
