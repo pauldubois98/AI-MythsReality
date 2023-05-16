@@ -30,6 +30,8 @@ this is how you teach a computer to recognize digits, and by extension writting
 
 if you want to generate an image from a label, you can reverse your architecture & train again (NB: this is *very* simplified)
 
+============== [ entracte ] ==================
+
 now, how do we get AI to deal with text?
 input text architecture (word to token)
 predict next word/token => self supervised (no labelled data needed!)
