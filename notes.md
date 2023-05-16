@@ -21,3 +21,9 @@ describe architecture for image labeling (input image, output label, instead of 
 how did you all manage to have green lights on the black box model?
 => trial and error
 you needed to have the green / red lights... these turn out to be points
+
+for more complex data, such as images, to be able to say if a light is red or green, you need to have the *label* (desired output for your machine) for each image you want to test
+=> hence, data is crucial
+then, we can also follow the process of trial and error, even for very complex machine, like the one able to eat an image and throw out a label
+[show evolution of the predictions + accuracy on ~10 images while training]
+this is how you teach a computer to recognize digits, and by extension writting
