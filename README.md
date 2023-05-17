@@ -13,6 +13,6 @@ These are the techniques behind the rapid advancements in AI in recent years.
 ### French:
 ChatGPT, AlphaGo, MidJourney/DALL-E, ou encore les "algorithmes" de recommandation... l'IA semble s'être immiscée dans le quotidien de notre société.
 Pourtant, l'IA reste un domaine peu compris, et réservé à quelques experts.
-Le but de cette soirée scientifique tout publique est de démystifier ce que l'on appelle crûment "intelligence artificielle".
+Le but de cette soirée scientifique tous publics est de démystifier ce que l'on appelle crûment "intelligence artificielle".
 Nous parlerons du traitement d'images, de textes, et du fonctionnement interne de l'apprentissage automatique ainsi que de l'apprentissage profond.
-Ces techniques sont à l'origine des progrès fulgurant en IA depuis quelques années.
+Ces techniques sont à l'origine des progrès fulgurants en IA depuis quelques années.
