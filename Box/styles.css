@@ -5,9 +5,9 @@ body{
 }
 h1{
     color: white;
-    background-color: black;
+    background-color: grey;
     padding: 0.3em;
-    /* border: 0.1em black solid; */
+    border: 0.1em black solid;
     width: 3em;
     text-align: center;
 }
