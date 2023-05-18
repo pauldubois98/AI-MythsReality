@@ -42,7 +42,7 @@ function check_points(){
         // d = |V|*cos(N_V) = N.V/|N|
         // as |N|=1, d=N.V
         const d = Math.abs(N[0]*V[0] + N[1]*V[1]);
-        if(d<3){
+        if(d<=2){
             test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
         } else if(d<10){
             test_pts_main.innerHTML += `<ellipse style="fill:#ffff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
