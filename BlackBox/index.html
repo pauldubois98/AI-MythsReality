@@ -17,30 +17,32 @@
         <input type="range" min="-50" max="50" step="0.1" id="input_b" onmousemove="update(0.3);" onclick="update(0.3);" onmouseleave="update();">
         <input type="range" min="-50" max="50" step="0.1" id="input_c" onmousemove="update(0.3);" onclick="update(0.3);" onmouseleave="update();">
     </form>
-    <svg width="100mm" height="100mm" viewBox="0 0 100 100">
-        <path
-            style="stroke:#000000;stroke-width:0.8;stroke-linecap:round"
-            d="m 0,100 10,0"
-            id="line"
-            sodipodi:nodetypes="cc" />
-    </svg>
-    <svg width="10mm" height="100mm" viewBox="0 0 10 100" id="test_points">
-        <ellipse
-            style="fill:#00ff00"
-            id="circle0"
-            cx="5"
-            cy="5"
-            rx="3"
-            ry="3" />
-        <ellipse
-            style="fill:#ff0000"
-            id="circle0"
-            cx="5"
-            cy="15"
-            rx="3"
-            ry="3" />
-    </svg>
-
+    <div>
+        <svg width="100mm" height="100mm" viewBox="0 0 100 100">
+            <path
+                style="stroke:#000000;stroke-width:0.8;stroke-linecap:round"
+                d="m 0,100 10,0"
+                id="line"
+                sodipodi:nodetypes="cc" />
+        </svg>
+        <svg width="10mm" height="100mm" viewBox="0 0 10 100" id="test_points">
+            <ellipse
+                style="fill:#00ff00"
+                id="circle0"
+                cx="5"
+                cy="5"
+                rx="3"
+                ry="3" />
+            <ellipse
+                style="fill:#ff0000"
+                id="circle0"
+                cx="5"
+                cy="15"
+                rx="3"
+                ry="3" />
+        </svg>
+    </div>
+    
 </body>
 <script src="script.js"></script>
 
