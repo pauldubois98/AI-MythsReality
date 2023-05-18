@@ -11,3 +11,6 @@ h1{
     width: 3em;
     text-align: center;
 }
+svg{
+    border: 1px black solid;
+}
