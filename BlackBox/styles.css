@@ -11,6 +11,9 @@ h1{
     width: 3em;
     text-align: center;
 }
+input{
+    width: 20em;
+}
 svg{
     border: 1px black solid;
 }
