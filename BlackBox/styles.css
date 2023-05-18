@@ -17,3 +17,7 @@ input{
 svg{
     border: 1px black solid;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
