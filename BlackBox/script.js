@@ -33,6 +33,8 @@ function check_points(){
     }
 }
 
-
+// input_a.value = Math.atan(0.75)
+// input_c.value = 30
+// input_b.value = -35
 update();
 check_points();
