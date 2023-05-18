@@ -33,6 +33,8 @@ function check_points(){
     const Q = [0,B];
     for (let i = 0; i < PTS.length; i++) {
         const P = PTS[i];
+        // vector belonging to the line
+        const Q = [P[0],A*P[0]+B];
         // V = P-Q
         const V = [P[0]-Q[0], P[1]-Q[1]];
         // N.V = |N|*|V|*cos(N_V)
