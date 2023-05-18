@@ -13,6 +13,11 @@ const PTS = [
 var A,B;
 
 function update(width=0.8){
+    draw_line(width);
+    check_points();
+}
+
+function draw_line(width=0.8){
     // y = a (x-c) + b
     var x0 = 0;
     A = Number(Math.tan(input_a.value));
@@ -23,7 +28,6 @@ function update(width=0.8){
     var dx = x1-x0;
     var dy = y1-y0;
     line.outerHTML = `<path style="stroke:#000000;stroke-width:${width};stroke-linecap:round" d="m ${x0},${y0} ${dx},${dy}" id="line" sodipodi:nodetypes="cc"></path>`;
-    check_points();
 }
 
 function check_points(){
@@ -63,4 +67,3 @@ function check_points(){
 // B = -12.264793185536945
 // Y = A*X + B
 update();
-check_points();
