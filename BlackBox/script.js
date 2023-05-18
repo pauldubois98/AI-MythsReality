@@ -27,6 +27,8 @@ function update(width=0.8){
 
 function check_points(){
     test_pts_main.innerHTML = "";
+    const N = [1,A]/Math.sqrt(A*A + 1) // normal to line, length 1
+    const Q = [0,B] // belongs to the line
     for (let i = 0; i < PTS.length; i++) {
         const pt = PTS[i];
         test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${pt[0]+50}" cy="${pt[1]+50}" rx="2" ry="2"></ellipse>\n`
