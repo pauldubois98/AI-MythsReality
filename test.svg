@@ -39,13 +39,23 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="fill:#000000;stroke:#ffffff;stroke-width:0.216499;stroke-linecap:round;stroke-linejoin:round"
-       id="path238"
-       cx="15"
-       cy="25"
-       rx="9.8917503"
-       ry="14.89175" />
+    <g
+       id="g495">
+      <ellipse
+         style="fill:#000000;stroke:#ffffff;stroke-width:0.216499;stroke-linecap:round;stroke-linejoin:round"
+         id="path238"
+         cx="15"
+         cy="25"
+         rx="9.8917503"
+         ry="14.89175" />
+      <ellipse
+         style="fill:#000000;stroke:#ffffff;stroke-width:0.216499;stroke-linecap:round;stroke-linejoin:round"
+         id="path238-5"
+         cx="15"
+         cy="65"
+         rx="9.8917503"
+         ry="14.89175" />
+    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
        d="m 50,20 70,55"
