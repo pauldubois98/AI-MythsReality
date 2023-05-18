@@ -2,6 +2,7 @@
 console.log(input_a.value)
 
 function update(){
+    // y = a (x-c) + b
     var x0 = 0;
     var y0 = 0;
     var x1 = 100;
