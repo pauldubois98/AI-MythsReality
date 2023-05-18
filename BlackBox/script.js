@@ -28,6 +28,7 @@ function update(width=0.8){
 
 function check_points(){
     test_pts_main.innerHTML = "";
+    test_points_check.innerHTML = "";
     // normal to line, length 1
     const N = [-A/Math.sqrt(A*A + 1), 1/Math.sqrt(A*A + 1)];
     // vector belonging to the line
@@ -44,10 +45,13 @@ function check_points(){
         const d = Math.abs(N[0]*V[0] + N[1]*V[1]);
         if(d<=2){
             test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#00ff00" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         } else if(d<10){
             test_pts_main.innerHTML += `<ellipse style="fill:#ffff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#ffff00" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         } else{
             test_pts_main.innerHTML += `<ellipse style="fill:#ff0000" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#ff0000" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         }
     }
 }
