@@ -27,11 +27,9 @@ function draw_line(width=0.8){
     var y1 = A*(50-Number(input_c.value)) + Number(input_b.value) +50;
     var dx = x1-x0;
     var dy = y1-y0;
-    line.outerHTML = `<path style="stroke:#000000;stroke-width:${width};stroke-linecap:round" d="m ${x0},${y0} ${dx},${dy}" id="line" sodipodi:nodetypes="cc"></path>`;
 }
 
 function check_points(){
-    test_pts_main.innerHTML = "";
     test_points_check.innerHTML = "";
     // normal to line, length 1
     const N = [-A/Math.sqrt(A*A + 1), 1/Math.sqrt(A*A + 1)];
@@ -48,14 +46,11 @@ function check_points(){
         // as |N|=1, d=N.V
         const d = Math.abs(N[0]*V[0] + N[1]*V[1]);
         if(d<=2){
-            test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
-            test_points_check.innerHTML += `<ellipse style="fill:#00ff00" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#00ff00" cy="5" cx="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         } else if(d<10){
-            test_pts_main.innerHTML += `<ellipse style="fill:#ffff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
-            test_points_check.innerHTML += `<ellipse style="fill:#ffff00" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#ffff00" cy="5" cx="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         } else{
-            test_pts_main.innerHTML += `<ellipse style="fill:#ff0000" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
-            test_points_check.innerHTML += `<ellipse style="fill:#ff0000" cx="5" cy="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
+            test_points_check.innerHTML += `<ellipse style="fill:#ff0000" cy="5" cx="${i*10 + 5}" rx="4" ry="4"></ellipse>\n`
         }
     }
 }
