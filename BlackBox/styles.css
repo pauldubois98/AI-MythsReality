@@ -2,3 +2,9 @@ body{
     display: flex;
     justify-content: center;
 }
+h1{
+    color: black;
+    background-color: white;
+    padding: 0.2em;
+    border: 0.1em black solid;
+}
