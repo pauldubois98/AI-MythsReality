@@ -16,4 +16,13 @@ function update(width=0.8){
     line.outerHTML = `<path style="stroke:#000000;stroke-width:${width};stroke-linecap:round" d="m ${x0},${y0} ${dx},${dy}" id="line" sodipodi:nodetypes="cc"></path>`;
 }
 
+function check_points(){
+    test_pts_main.innerHTML = "";
+    for (let i = 0; i < PTS.length; i++) {
+        const pt = PTS[i];
+        test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${pt[0]+50}" cy="${pt[1]+50}" rx="3" ry="3"></ellipse>\n`
+    }
+}
+
+
 update();
