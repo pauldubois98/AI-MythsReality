@@ -40,7 +40,7 @@ function check_points(){
         // N.V = |N|*|V|*cos(N_V)
         // d = |V|*cos(N_V) = N.V/|N|
         // as |N|=1, d=N.V
-        const d = N[0]*V[0] +  N[1]*V[1];
+        const d = Math.abs(N[0]*V[0] + N[1]*V[1]);
         test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
     }
 }
