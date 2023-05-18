@@ -36,5 +36,8 @@ function check_points(){
 // input_a.value = Math.atan(0.75)
 // input_c.value = 30
 // input_b.value = -35
+// A = 0.7578402271487685
+// B = -12.264793185536945
+// Y = A*X + B
 update();
 check_points();
