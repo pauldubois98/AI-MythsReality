@@ -44,6 +44,8 @@ function check_points(){
         const d = Math.abs(N[0]*V[0] + N[1]*V[1]);
         if(d<3){
             test_pts_main.innerHTML += `<ellipse style="fill:#00ff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
+        } else if(d<10){
+            test_pts_main.innerHTML += `<ellipse style="fill:#ffff00" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
         } else{
             test_pts_main.innerHTML += `<ellipse style="fill:#ff0000" cx="${P[0]+50}" cy="${P[1]+50}" rx="2" ry="2"></ellipse>\n`
         }
