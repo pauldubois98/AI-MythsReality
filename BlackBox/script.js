@@ -28,7 +28,7 @@ function update(width=0.8){
 function check_points(){
     test_pts_main.innerHTML = "";
     // normal to line, length 1
-    const N = [1/Math.sqrt(A*A + 1), A/Math.sqrt(A*A + 1)];
+    const N = [-A/Math.sqrt(A*A + 1), 1/Math.sqrt(A*A + 1)];
     // vector belonging to the line
     const Q = [0,B];
     for (let i = 0; i < PTS.length; i++) {
