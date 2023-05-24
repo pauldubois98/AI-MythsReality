@@ -16,3 +16,11 @@ Pourtant, l'IA reste un domaine peu compris, et réservé à quelques experts.
 Le but de cette soirée scientifique tout public est de démystifier ce que l'on appelle "Intelligence Artificielle".
 Nous parlerons du traitement d'images, de textes, et du fonctionnement interne de l'apprentissage automatique (machine learning) ainsi que de l'apprentissage profond (deep learning); le tout dans un cadre détendu, accessible à tous, et garanti sans jargon!
 Ces techniques sont à l'origine des progrès fulgurants en IA depuis quelques années, et ce n'est que le début.
+
+## Tools
+### Black Box Link
+https://pauldubois98.github.io/AI-MythsReality/BlackBox/
+### White Box Link
+https://pauldubois98.github.io/AI-MythsReality/WhiteBox/
+### Full Box Link
+https://pauldubois98.github.io/AI-MythsReality/FullBox/
