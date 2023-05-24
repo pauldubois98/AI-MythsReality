@@ -1,4 +1,4 @@
-# AI-MythsRealityTalk
+# AI - Myths Reality Talk@Lèze
 
 All ressources for "Artificial Intelligence: Myths vs Reality" talk given at info@lèze.
 
@@ -18,6 +18,8 @@ Nous parlerons du traitement d'images, de textes, et du fonctionnement interne d
 Ces techniques sont à l'origine des progrès fulgurants en IA depuis quelques années, et ce n'est que le début.
 
 ## Tools
+### Official Website
+https://pauldubois98.github.io/AI-MythsReality/
 ### Black Box Link
 https://pauldubois98.github.io/AI-MythsReality/BlackBox/
 ### White Box Link
