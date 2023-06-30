@@ -5,6 +5,7 @@ Presentation: PhD in AI applied to RT (healthcare) at CS
 ## Part 1: Intro + Images
 what is ai?
 => smth that behaves/mimics like human; some are v stupid, some v smart
+eg.: when playing video games, if there are multiple levels, the AI is purposefully made "stupid" (to some extend)
 ofc, we are more interested in the "smart" ones
 
 AI can be done in various ways:
